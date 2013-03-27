@@ -1,0 +1,17 @@
+{
+    "name": "No More Cyber",
+    "version": "0.1",
+    "manifest_version": 2,
+
+    "description": "Replaces all instances of 'cyber' on the current page.",
+
+    "permissions": [ "activeTab" ],
+    "browser_action": {},
+    "icons": { "16": "icon_16.png",
+               "48": "icon_48.png",
+               "128": "icon_128.png" },
+    "background": {
+        "scripts": [ "background.js" ],
+        "persistent": false
+    }
+}
